@@ -1,19 +1,19 @@
 {
   "name": "davydadrielprexis-v2-sdk",
   "license": "MIT",
-  "version": "3.0.13",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "version": "3.0.14",
+  "description": "An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/DavydAdriel-Prexis/v2-sdk",
+  "repository": "https://github.com/DavydAdriel-Prexis/v2-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
   ],
-  "module": "dist/sdk.esm.js",
+  "module": "dist/v2-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
