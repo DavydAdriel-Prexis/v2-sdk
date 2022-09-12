@@ -3,17 +3,16 @@
   "license": "MIT",
   "version": "3.0.3",
   "description": "An SDK for building applications on top of Uniswap V2",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "files": [
-    "dist"
+    "src"
   ],
   "repository": "https://github.com/DavydAdriel-Prexis/v2-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
   ],
-  "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
